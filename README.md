@@ -75,6 +75,7 @@ show the nesting level of the statements involved.
 • Include some in-line documentation to give a high level view of what the
 program and groups of statements is/are doing.
 
+---------------------------------------------------------------------------------------
 Sample output:
 element[0]: id = 1234567, check Number: 102, date: 08/11/21, amount: 4.00
 
@@ -101,19 +102,32 @@ element[10]: id = 1234, check Number: 1112, date: 08/31/21, amount: 44.00
 element[11]: id = 1001001, check Number: 902, date: 09/25/21, amount: 19.00
 
 Input command (account,id | list | date,mm/dd/yy | exit):
+
 account,1001001
+
 response: Total for account 1001001: 39.00
+
 Input command (account,id | list | date,mm/dd/yy | exit):
+
 date,08/14/20
+
 response: Total on date 08/14/21: 23.00
+
 Input command (account,id | list | date,mm/dd/yy | exit):
+
 account,1234567
+
 response: Total for account 1234567: 53.00
+
 Input command (account,id | list | date,mm/dd/yy | exit):
 exit
+
 response: db complete.
+
 interface: child process (212) completed.
+
 interface: child process exit status = 0.
+
 interface: Complete.
 
 ---------------------------------------------------------------------------------------
